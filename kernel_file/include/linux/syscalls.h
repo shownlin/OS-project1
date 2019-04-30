@@ -1,4 +1,4 @@
-/*
+/*d
  * syscalls.h - Linux syscall interfaces (non-arch-specific)
  *
  * Copyright (c) 2004 Randy Dunlap

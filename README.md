@@ -14,6 +14,6 @@ note: 若是第一次compile kernel請先完整編譯 sudo make
 ```sh
 cd src
 make
-sudo ./sched.out < TEST_FILE
+sudo ./main.out < TEST_FILE
 or try `make try`
 ```

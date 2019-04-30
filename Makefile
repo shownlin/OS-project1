@@ -3,7 +3,7 @@ CFLAGS  = -Wall -pthread -std=gnu99
 
 OBJECT  = sched.o
 
-EXEC    = sched.out
+EXEC    = main.out
 
 default : $(EXEC)
 

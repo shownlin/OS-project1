@@ -12,7 +12,6 @@ note: 若是第一次compile kernel請先完整編譯 sudo make
 ## Usage
 
 ```sh
-cd src
 make
 sudo ./main.out < TEST_FILE
 or try `make try`

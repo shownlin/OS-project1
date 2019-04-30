@@ -2,7 +2,6 @@
 #include "list.h" 
 #include "_sched.h"
 
-
 // 1->FIFO, 2->RR
 int POLICY[2] = {1, 2};
 

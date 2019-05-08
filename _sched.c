@@ -270,11 +270,12 @@ int main(){
 			}
 		}
 
-		syscall(336, 1, mypid, &start);
 
 		pid = fork();
+
 		if(!pid){
 			mypid = getpid();
+			syscall(336, 1, mypid, &start);
 			printf("%s %d\n", P[R_index[i]], getpid());
 			
 			for(unsigned long _i = 0; _i < T[T_inverse[R_index[i]]]; ++_i){

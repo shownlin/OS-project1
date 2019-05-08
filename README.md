@@ -1,4 +1,5 @@
-# OS Project 1 2019 Spring @ NTU
+﻿# OS Project 1 2019 Spring @ NTU
+# 已照助教指示修復所有bug重新上傳
 
 ## Preparation (Install System Call)
 
